@@ -1,0 +1,18 @@
+<html> 
+  <head>
+  	 <title> Require JS </title>
+  </head>
+
+  <body> 
+     <button id="clickMe"> Asynchronous Module Definition </button>
+
+     <script src='require.js'>
+  	 </script>
+
+  	 <script>
+  	 	require(['js/config'], function() {
+           require(['customScripts/jqueryFile']);
+  	 	});
+  	 </script>
+  </body>
+</html>
